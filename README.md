@@ -30,6 +30,12 @@ create a .env file take a look at .env.example file for contents or request .env
 npm start
 ```
 
+API Endpoints
+
+GET Followers:   {{baseUrl}}/api/followers?skip=0&limit=10
+GET Followings:   {{baseUrl}}/api/followings?skip=0&limit=10
+GET Tweets:   {{baseUrl}}/api/tweets?skip=0&limit=10
+
 
 ## Live On Heroku
 https://virajsingh.herokuapp.com/
